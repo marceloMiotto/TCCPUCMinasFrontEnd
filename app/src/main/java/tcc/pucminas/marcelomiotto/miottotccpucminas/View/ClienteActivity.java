@@ -115,7 +115,8 @@ public class ClienteActivity extends AppCompatActivity implements Observer {
                 mySnackbar.show();
             }
 
-            if(((Cliente) o).getId() == -94){
+            if(((Cliente) o).getId() == -99){
+                moveTaskToBack(true);
                 finish();
             }
 
